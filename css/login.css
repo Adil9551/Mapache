@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+}
+
+
+/* Make content area fill the entire browser window */
+
+html,
+.fullscreen {
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.background {
+    background: url(/images/bk_image.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.login-logo {
+    width: 75px;
+    height: 75px;
+}
+
+.form-input-img {
+    height: 26px;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+}
+
+
+/* Bootstrap overwrites  */
+
+.input-group-text {
+    background-color: #96989A !important;
+    border: none !important;
+}
